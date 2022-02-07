@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(https://proza.ru/pics/2013/02/03/270.jpg);
+}
+
+.center {
+    margin-top: 25px;
+}
+
+h1 {
+    border-radius: 5px;
+    background: #000;
+    border: 1px solid rgb(72, 159, 85);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color:#bbb;
+    text-transform:capitalize;
+    font: 4rem normal Helvetica, sans-serif;
+    -webkit-text-stroke: 2.3px green;
+}
+
+.win {
+    padding: 10px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: green;
+}
+
+.que {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: green;
+    padding: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
